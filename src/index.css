@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fixed-img {
+  background: url('/src/assets/hero.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.active {
+  padding: .3rem 0 !important;
+  border-bottom: 1px solid #64646411 !important;
+}
