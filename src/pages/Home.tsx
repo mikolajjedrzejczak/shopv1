@@ -6,6 +6,9 @@ const Home = () => {
     <div className="h-[150vh]">
       <Hero />
       <Section />
+      <Section />
+      <Section />
+      <Section />
     </div>
   );
 };

@@ -6,8 +6,9 @@ const Section = () => {
   return (
     <motion.section
       initial={{ y: 50, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.2, delay: 0.1 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.2, delay: 0.2 }}
       className="w-full py-[5rem] flex justify-center items-center"
     >
       <div className="w-[1200px] gap-10 md:gap-0 px-5 md:px-0 flex-col md:flex-row flex justify-between items-center relative">

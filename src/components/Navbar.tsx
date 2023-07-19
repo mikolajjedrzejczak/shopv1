@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
 
 import Logo from '../assets/logov2.png';
@@ -134,9 +134,9 @@ const Navbar = () => {
             )}
           </AnimatePresence>
 
-          <NavLink to="/">
+          <Link to="/">
             <img src={Logo} alt="logo" className="w-[100px]" />
-          </NavLink>
+          </Link>
 
           <div className="relative cursor-pointer">
             <BsBag size={20} />
