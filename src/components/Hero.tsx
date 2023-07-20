@@ -11,7 +11,7 @@ const Hero = () => {
         </p>
         <Link
           to="/catalog"
-          className="w-[150px] text-white text-center py-3 border-[1px] border-white"
+          className="w-[150px] text-white text-center py-3 border-[1px] border-white hover:text-black hover:bg-white duration-150 ease-linear"
         >
           Shop now
         </Link>

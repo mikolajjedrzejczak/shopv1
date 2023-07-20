@@ -26,13 +26,13 @@ const BackToTop = () => {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: 50, opacity: 0 }}
-          className="fixed right-10 bottom-10"
+          className="fixed right-5 bottom-5 group"
         >
           <div
             className="p-3 rounded-full text-white bg-black cursor-pointer"
             onClick={handleBackToTop}
           >
-            <AiOutlineArrowUp size={30} />
+            <AiOutlineArrowUp size={30} className="group-hover:scale-110 duration-100 ease-linear" />
           </div>
         </motion.div>
       )}
