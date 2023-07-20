@@ -85,13 +85,19 @@ const Navbar = () => {
                 initial={{ left: '-100%', opacity: 0 }}
                 animate={{ left: 0, opacity: 1 }}
                 exit={{ left: '-100%', opacity: 0 }}
-                className="flex flex-col absolute bg-white w-[75%] left-0 -top-0 h-screen md:hidden gap-5 text-gray-600 text-sm z-[-1]"
+                className="flex flex-col absolute w-full left-0 -top-0  md:hidden gap-5 text-gray-600 text-sm z-[-1]"
+                onClick={handleMenu}
               >
-                <ul className="flex flex-col gap-2 items-center py-[15rem]">
+                <ul
+                  className="w-[75%] bg-white h-screen flex flex-col gap-2 items-center py-[15rem]"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                  }}
+                >
                   <motion.li
                     initial={{ left: '-100%', opacity: 1 }}
                     animate={{ left: 0, opacity: 1 }}
-                    transition={{ duration: 1}}
+                    transition={{ duration: 1 }}
                     className="w-full flex items-center text-[1.2rem]"
                   >
                     <NavLink
@@ -134,7 +140,7 @@ const Navbar = () => {
             )}
           </AnimatePresence>
 
-          <Link to="/">
+          <Link to="/" className="md:mr-[9.4rem]">
             <img src={Logo} alt="logo" className="w-[100px]" />
           </Link>
 
