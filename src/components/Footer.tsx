@@ -19,6 +19,7 @@ const Footer = () => {
             initial={{ y: 50, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.15 }}
+            viewport={{ once: true }}
           >
             <li>
               <Link to="/">Policy</Link>
@@ -33,7 +34,7 @@ const Footer = () => {
           <motion.div
             initial={{ y: 50, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.15, delay: 0.150 }}
+            transition={{ duration: 0.15, delay: 0.15 }}
             viewport={{ once: true }}
             className="flex-1 flex justify-end gap-2"
           >
