@@ -12,8 +12,6 @@ const FAQ = () => {
     }
   };
 
-  console.log(isOpen);
-
   return (
     <div className="w-full flex items-center justify-center">
       <div className="w-[1200px] py-[7rem]">
