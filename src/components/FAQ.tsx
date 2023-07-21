@@ -19,7 +19,7 @@ const FAQ = () => {
       <div className="w-[1200px] py-[7rem]">
         <h1 className="text-center text-3xl font-semibold">FAQ</h1>
         <div className="flex flex-col justify-center items-center py-5">
-          <div className="w-full md:w-[460px]">
+          <div className="w-[300px] md:w-[460px]">
             <h1
               className="flex py-2 px-2 w-full border-b-[1px] border-b-gray-300 gap-5 items-center justify-between cursor-pointer"
               id="first-an"
@@ -41,7 +41,7 @@ const FAQ = () => {
               </p>
             )}
           </div>
-          <div className="w-[460px]">
+          <div className="w-[300px] md:w-[460px]">
             <h1
               className="flex py-2 px-2 w-full border-b-[1px] border-b-gray-300 gap-5 items-center justify-between cursor-pointer"
               id="second-an"
@@ -63,7 +63,7 @@ const FAQ = () => {
               </p>
             )}
           </div>
-          <div className="w-[460px]">
+          <div className="w-[300px] md:w-[460px]">
             <h1
               className="flex py-2 px-2 w-full border-b-[1px] border-b-gray-300 gap-5 items-center justify-between cursor-pointer"
               id="third-an"
