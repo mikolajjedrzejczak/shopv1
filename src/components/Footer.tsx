@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   return (
     <footer className="w-full bg-gray-200 flex justify-center flex-col items-center">
-      <div className="w-[1200px] flex flex-col justify-center items-center gap-5">
+      <div className="lg:w-[1200px] flex flex-col justify-center items-center gap-5">
         <div className="flex justify-between md:flex-row flex-col gap-5 md:gap-0 items-center py-[4.5rem] w-full">
           <img src={IMG} alt="Logo" className="w-[150px]" />
           <motion.ul

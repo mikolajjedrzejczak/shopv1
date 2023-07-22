@@ -24,7 +24,7 @@ const Section: React.FC<SectionProps> = ({
       className={`w-full py-[5rem] ${background} flex justify-center items-center`}
     >
       <div
-        className={`w-[1200px] gap-10 md:gap-0 px-5 md:px-0 flex-col ${position} flex justify-between items-center relative`}
+        className={`lg:w-[1200px] gap-10 md:gap-0 px-5 md:px-0 flex-col ${position} flex justify-between items-center relative`}
       >
         <img src={image} alt="" className="border-[.5px] border-[#8080802c]" />
         <div className="flex flex-col gap-1 max-w-[400px]">
