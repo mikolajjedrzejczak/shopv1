@@ -7,7 +7,7 @@ import Announcement from './components/Announcement';
 
 const Layout = () => {
   return (
-    <div>
+    <div className="absolute w-full h-full">
       <Announcement />
       <Navbar />
       <Outlet />
