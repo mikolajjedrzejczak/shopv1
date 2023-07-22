@@ -166,7 +166,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <ShoppingCart setOpen={handleCart} open={isCartOpen} />
+        {/* <ShoppingCart setOpen={handleCart} open={isCartOpen} /> */}
       </nav>
     </>
   );
