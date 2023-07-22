@@ -6,7 +6,7 @@ import { BsBag } from 'react-icons/bs';
 import { IoMenuSharp, IoCloseSharp } from 'react-icons/io5';
 
 import { motion, AnimatePresence } from 'framer-motion';
-
+import ShoppingCart from './ShoppingCart';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +25,7 @@ const Navbar = () => {
     if (isOpen) {
       setIsOpen(false);
     }
-  }
+  };
 
   const handleScroll = () => {
     if (navRef.current) {
@@ -156,17 +156,14 @@ const Navbar = () => {
             <img src={Logo} alt="logo" className="w-[100px]" />
           </Link>
 
-          <div
-            className="relative cursor-pointer"
-            onClick={handleCart}
-          >
+          <div className="relative cursor-pointer" onClick={handleCart}>
             <BsBag size={20} />
             <div className="absolute -bottom-2 -right-1 text-xs flex items-center justify-center bg-black text-white px-1 rounded-full">
               0
             </div>
           </div>
         </div>
-        {/* <ShoppingCart setOpen={handleCart} open={isCartOpen} /> */}
+        <ShoppingCart setOpen={handleCart} open={isCartOpen} />
       </nav>
     </>
   );
