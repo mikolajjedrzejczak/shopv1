@@ -8,6 +8,12 @@
   background-position: center center;
 }
 
+@media (min-width: 768px) {
+  .fixed-img {
+    background-attachment: fixed;
+  }
+}
+
 .active {
   padding: 0.3rem 0 !important;
   border-bottom: 1px solid #64646411 !important;
