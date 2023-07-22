@@ -7,7 +7,7 @@ import Announcement from './components/Announcement';
 
 const Layout = () => {
   return (
-    <div className="absolute w-full h-full">
+    <div className="overflow-x-hidden absolute w-full h-full">
       <Announcement />
       <Navbar />
       <Outlet />
@@ -31,11 +31,7 @@ const router = createBrowserRouter([
 ]);
 
 const App = () => {
-  return (
-    <div>
-      <RouterProvider router={router} />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 };
 
 export default App;
