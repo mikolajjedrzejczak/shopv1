@@ -6,7 +6,7 @@ import { BsBag } from 'react-icons/bs';
 import { IoMenuSharp, IoCloseSharp } from 'react-icons/io5';
 
 import { motion, AnimatePresence } from 'framer-motion';
-import ShoppingCart from './ShoppingCart';
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
