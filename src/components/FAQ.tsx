@@ -1,4 +1,3 @@
-import { AiOutlineArrowDown, AiOutlineArrowUp } from 'react-icons/ai';
 import { useState } from 'react';
 import SingleQuestion from './SingleQuestion';
 

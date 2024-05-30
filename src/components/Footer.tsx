@@ -62,11 +62,11 @@ const Footer = () => {
       <p className="w-full text-center py-3 font-semibold border-t-[1px] border-t-gray-300">
         &copy; 2023 Developed by{' '}
         <a
-          href="https://github.com/mkj1337"
+          href="https://github.com/mikolajjedrzejczak"
           target="_blank"
           className="underline font-bold"
         >
-          MKJ
+          mikolajjedrzejczak
         </a>
         .
       </p>
